@@ -23,7 +23,7 @@ def main():
             lo += 1
         elif c.isdigit():
             digi += 1
-        elif c == ' ':
+        elif c == ' ' or c == '\n':
             space += 1
         elif c in "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~":
             pon += 1
